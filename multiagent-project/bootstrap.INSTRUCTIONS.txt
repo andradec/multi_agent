@@ -1,0 +1,12 @@
+
+After running this bootstrap script you will have a folder `multiagent-project`.
+
+Steps to run the demo:
+  1. cd multiagent-project
+  2. (optional) python -m venv venv && source venv/bin/activate
+  3. pip install pytest  # only required to run tests
+  4. python -m src.main
+  5. pytest -q
+
+Replace stub modules in src/autogen_module, src/crewaimodule and src/swarm_module
+with the real framework integrations when you are ready.

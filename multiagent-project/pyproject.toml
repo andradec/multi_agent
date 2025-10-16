@@ -1,0 +1,12 @@
+
+[tool.poetry]
+name = "multiagent-project"
+version = "0.1.0"
+description = "Scaffold for multi-agent frameworks integration"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"

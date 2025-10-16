@@ -107,11 +107,11 @@ files = {
     """),
 
     "src/core/orchestrator.py": textwrap.dedent("""
-    """Orchestrator that routes tasks to AutoGen, CrewAI or Swarm modules.
+    '''Orchestrator that routes tasks to AutoGen, CrewAI or Swarm modules.
 
     This uses very simple heuristics to choose the module. Replace heuristics
     with your own routing logic as needed.
-    """
+    '''
     from ..autogen_module.runner_autogen import run_autogen_team
     from ..crewaimodule.crew_runner import run_crewai_team
     from ..swarm_module.swarm_runner import run_swarm_team
